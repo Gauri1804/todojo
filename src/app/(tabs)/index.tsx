@@ -1,8 +1,10 @@
+import useTheme from "@/hooks/useTheme";
 import React from "react";
 import { Text } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 const index = () => {
+  const { toggleDarkMode } = useTheme();
   return (
     <SafeAreaView>
       <Text>This is Home Page...</Text>
