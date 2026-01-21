@@ -7,7 +7,8 @@ const index = () => {
   const { toggleDarkMode } = useTheme();
   return (
     <SafeAreaView>
-      <Text>This is Home Page...</Text>
+      <Text>This is Home Page...!</Text>
+      
     </SafeAreaView>
   );
 };
